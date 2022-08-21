@@ -1,0 +1,31 @@
+.search {
+    &__main {
+        height: 40px;
+        width: 980px;
+        top: 263px;
+        border-radius: 12px;
+        background-color: #F4F5FC;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__main_input {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    &__input_main {
+        margin-left: 10px;
+        width: 500px;
+        border: 0;
+        background-color: #F4F5FC;
+
+        // &__input_main::placeholder {
+        //     color:red
+        // }
+        &::placeholder {
+            color: #97A7CB
+        }
+    }
+}

@@ -1,44 +1,45 @@
 .header {
-&__top_text{
-    display: flex;
-    flex-direction: row;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
+    &__top_text {
+        display: flex;
+        flex-direction: row;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 
-&__title_text{
-    font-family: 'Rubik';
-    color:#16173A;
-    font-weight: 300;
-    font-size: 25px;
-    line-height: 115%;
-    margin-left: 15px;
-}
+    &__title_text {
+        font-family: 'Rubik';
+        color: #16173A;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 115%;
+        margin-left: 15px;
+    }
 
-&__inner_space {
-    display: flex;
-    flex-direction: row;
-}
+    &__inner_space {
+        display: flex;
+        justify-content: space-around;
+        gap: 22px
+    }
 
-&__inner_block {
-    border-radius: 12px;
-    border: 2px solid #F4F5FC;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 12px 32px;
-    gap: 4px;
-    margin-right: 22px;
-}
+    &__inner_block {
+        border-radius: 12px;
+        border: 2px solid #F4F5FC;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 12px 32px;
+        gap: 4px;
+    }
 
-&__inner_text_name{
-    font-family: 'Rubik';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 150%;
-    color:#908DFF
-}
-&__inner_text_number{
-    font-family: 'Rubik-Bold';
-}
+    &__inner_text_name {
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        color: #908DFF
+    }
+
+    &__inner_text_number {
+        font-family: 'Rubik-Bold';
+    }
 }

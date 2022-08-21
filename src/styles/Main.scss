@@ -7,7 +7,6 @@
 
 // Fonts
 @import "./fonts/fonts";
-@import '../styles/fonts/fonts';
 
 // Layout
 @import "./layout/layout";
@@ -15,7 +14,7 @@
 @import "./layout/footer";
 
 // components
-
+@import "./components/search";
 
 //pages
 @import "./pages/home";
