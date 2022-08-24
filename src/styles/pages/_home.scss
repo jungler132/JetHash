@@ -3,5 +3,17 @@
         margin-top: 50px;
         display: flex;
         justify-content: space-between;
+        flex-direction: column;
+    }
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+
+    }
+
+    &__accordeon {
+        margin-top: 50px;
     }
 }
