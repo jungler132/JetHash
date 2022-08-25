@@ -85,66 +85,78 @@
     justify-content: space-between;
 }
 
+.accordion__options_data {
+    background-color: white;
+    display: flex;
+    padding: 18px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .accordion__rig_name {
     /* background-color: pink; */
-    font-family: 'Rubik-Bold-2';
-    width: 220px;
+    font-family: 'Rubik';
+    display: flex;
+    align-self: flex-start;
+    width: 240px;
+    height: 34px;
     font-size: 12px;
+    align-items: center;
 }
 
 .accordion__last_request {
     /* background-color: rgb(255, 0, 43); */
-    width: 80px;
-    font-family: 'Rubik-Bold-2';
+    width: 100px;
+    font-family: 'Rubik';
     font-size: 12px;
 }
 
 .accordion__algo {
     /* background-color: rgb(48, 29, 32); */
-    width: 50px;
-    font-family: 'Rubik-Bold-2';
+    width: 70px;
+    font-family: 'Rubik';
     font-size: 12px;
 }
 
 .accordion__coin {
     /* background-color: rgb(33, 206, 76); */
-    width: 30px;
-    font-family: 'Rubik-Bold-2';
+    width: 50px;
+    font-family: 'Rubik';
     font-size: 12px;
 }
 
 .accordion__pool {
     /* background-color: rgb(194, 104, 19); */
-    width: 140px;
-    font-family: 'Rubik-Bold-2';
+    width: 160px;
+    font-family: 'Rubik';
     font-size: 12px;
 }
 
 .accordion__login_wallet {
     /* background-color: rgb(72, 23, 128); */
-    width: 80px;
-    font-family: 'Rubik-Bold-2';
+    width: 100px;
+    font-family: 'Rubik';
     font-size: 12px;
 }
 
 .accordion__troubles {
     /* background-color: rgb(194, 22, 171); */
-    width: 90px;
-    font-family: 'Rubik-Bold-2';
+    width: 110px;
+    font-family: 'Rubik';
     font-size: 12px;
 }
 
 .accordion__hashrate {
     /* background-color: rgb(228, 179, 44); */
-    width: 100px;
-    font-family: 'Rubik-Bold-2';
+    width: 120px;
+    font-family: 'Rubik';
     font-size: 12px;
 }
 
 .accordion__conf_name {
     /* background-color: rgb(211, 137, 165); */
-    width: 60px;
-    font-family: 'Rubik-Bold-2';
+    width: 80px;
+    font-family: 'Rubik';
     font-size: 12px;
 }
 
@@ -159,4 +171,12 @@
     font-size: 12px;
     font-family: 'Rubik';
     color: red
+}
+
+.accordion__table_options {
+    background-color: pink;
+}
+
+.accordion__table_data {
+    background-color: green;
 }
