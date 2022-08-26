@@ -54,8 +54,8 @@ function Accordion(props) {
             </thead>
             <tbody>
               <tr className="accordion__table_data">
-                {/* <SVGGreen /> */}
                 <td className="accordion__content_bottom_text">
+                  <span className='accordion__indicator'> <SVGGreen /></span>
                   01-Dom34-green5
                 </td>
                 <td className="accordion__content_bottom_text">

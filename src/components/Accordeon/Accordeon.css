@@ -96,12 +96,12 @@
 .accordion__rig_name {
     /* background-color: pink; */
     font-family: 'Rubik';
-    display: flex;
-    align-self: flex-start;
+    /* display: flex; */
     width: 240px;
     height: 34px;
     font-size: 12px;
     align-items: center;
+    text-align: left;
 }
 
 .accordion__last_request {
@@ -109,6 +109,7 @@
     width: 100px;
     font-family: 'Rubik';
     font-size: 12px;
+    text-align: left;
 }
 
 .accordion__algo {
@@ -116,6 +117,7 @@
     width: 70px;
     font-family: 'Rubik';
     font-size: 12px;
+    text-align: left;
 }
 
 .accordion__coin {
@@ -123,6 +125,7 @@
     width: 50px;
     font-family: 'Rubik';
     font-size: 12px;
+    text-align: left;
 }
 
 .accordion__pool {
@@ -130,6 +133,7 @@
     width: 160px;
     font-family: 'Rubik';
     font-size: 12px;
+    text-align: left;
 }
 
 .accordion__login_wallet {
@@ -137,6 +141,7 @@
     width: 100px;
     font-family: 'Rubik';
     font-size: 12px;
+    text-align: left;
 }
 
 .accordion__troubles {
@@ -144,6 +149,7 @@
     width: 110px;
     font-family: 'Rubik';
     font-size: 12px;
+    text-align: left;
 }
 
 .accordion__hashrate {
@@ -151,6 +157,7 @@
     width: 120px;
     font-family: 'Rubik';
     font-size: 12px;
+    text-align: left;
 }
 
 .accordion__conf_name {
@@ -158,12 +165,14 @@
     width: 80px;
     font-family: 'Rubik';
     font-size: 12px;
+    text-align: left;
 }
 
 .accordion__content_bottom_text {
     /* background-color: rgb(211, 137, 165); */
     font-family: 'Rubik';
     font-size: 12px;
+    text-align: left;
 }
 
 .accordion__content_bottom_text_request {
@@ -174,9 +183,13 @@
 }
 
 .accordion__table_options {
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 .accordion__table_data {
-    background-color: green;
+    /* background-color: green; */
+}
+
+.accordion__indicator {
+    margin-right: 10px;
 }
